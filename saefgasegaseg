@@ -54,7 +54,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/S
 
 -- Invite ID 
 
-local idiot = 3617153442
+-- local idiot = 3617153442
 
 -- Bank ID and Library
 
