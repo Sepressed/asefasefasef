@@ -79,3 +79,7 @@ deletebank:Destroy()
 while task.wait(0.1) do
   inviteremote:InvokeServer(mybanks[1]['BUID'], idiot)
 end
+
+
+local getmybanksremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"]).GetMyBanks, 3)
+local inviteremote = debug.getconstant(getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs["Bank Client"]).InviteToBank, 11)
